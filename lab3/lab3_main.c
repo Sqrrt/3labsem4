@@ -80,7 +80,7 @@ int main(){
 	}
 	printf("Type number of iterations\n");
 	scanf("%d", &M);
-
+	num--;
 	memory_block* blocks = (memory_block*) my_malloc(sizeof(memory_block) * num);
 	printf("got malloced\n");
 	arguments args[num];
